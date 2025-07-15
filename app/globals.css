@@ -75,7 +75,7 @@ body {
       @apply font-modern-negra text-3xl -mb-2;
     }
 
-    a {
+    Link {
       @apply cursor-pointer text-nowrap md:text-base text-sm;
     }
 
