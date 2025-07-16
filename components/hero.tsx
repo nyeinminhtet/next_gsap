@@ -6,14 +6,13 @@ import Image from "next/image";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { SplitText, ScrollTrigger } from "gsap/all";
 import { useMediaQuery } from "react-responsive";
+import { SplitText, ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const Hero = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const videoTimelineRef = gsap.timeline();
 
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
