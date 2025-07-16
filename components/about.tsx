@@ -79,6 +79,7 @@ const About = () => {
             alt="grid-img-1"
             width={100}
             height={100}
+            className="w-full h-full"
           />
         </div>
 
@@ -89,6 +90,7 @@ const About = () => {
             alt="grid-img-2"
             width={100}
             height={100}
+            className="w-full h-full"
           />
         </div>
 
@@ -99,6 +101,7 @@ const About = () => {
             alt="grid-img-5"
             width={100}
             height={100}
+            className="w-full h-full"
           />
         </div>
       </div>
@@ -111,6 +114,7 @@ const About = () => {
             alt="grid-img-3"
             width={100}
             height={100}
+            className="w-full h-full"
           />
         </div>
 
@@ -121,6 +125,7 @@ const About = () => {
             alt="grid-img-4"
             width={100}
             height={100}
+            className="w-full h-full"
           />
         </div>
       </div>

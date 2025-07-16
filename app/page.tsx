@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
 
+import Art from "@/components/art";
 import Hero from "@/components/hero";
 import About from "@/components/about";
 import Cocktails from "@/components/cocktails";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Cocktails />
       <About />
+      <Art />
     </main>
   );
 }
