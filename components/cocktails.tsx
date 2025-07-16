@@ -24,12 +24,12 @@ const Cocktails = () => {
 
     parallaxTimeline
       .from("#c-left-leaf", {
-        x: -100,
-        y: 100,
+        x: -300,
+        y: 200,
       })
       .from("#c-right-leaf", {
-        x: 100,
-        y: -100,
+        x: 200,
+        y: -200,
       });
   });
 

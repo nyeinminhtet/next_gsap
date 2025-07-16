@@ -9,7 +9,7 @@ import { useGSAP } from "@gsap/react";
 import { useMediaQuery } from "react-responsive";
 import { SplitText, ScrollTrigger } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
+// gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const Hero = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
